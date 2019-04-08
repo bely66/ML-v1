@@ -2,4 +2,4 @@
 Machine learning models
 I'm frequently updating this as i'm learning new **ML** techniques
 
-feel free to contribute or as for help
+feel free to contribute or ask for help
