@@ -7,7 +7,7 @@ Created on Wed Apr 10 19:58:40 2019
 
 import pandas as pd
 
-# TODO: Set weight1, weight2, and bias
+
 weight1 = 6
 weight2 = 8
 bias = -9
