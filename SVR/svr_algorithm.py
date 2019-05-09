@@ -24,8 +24,8 @@ model = SVR(kernel='rbf')
 model.fit(x,y)
 
 
-y_pred = model.predict([[6.5]])
+y_pred = model.predict(x)
 
-plt.scatter(x,y,color="blue")
-plt.plot(x,model.predict(x),color="yellow")
+plt.scatter(sc_X.inverse_transform(x),sc_Y.inverse_transform(y),color="blue")
+plt.plot(sc_X.inverse_transform(x),sc_Y.inverse_transform(model.predict(x)),color="yellow")
 plt.show()

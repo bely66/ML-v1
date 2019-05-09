@@ -21,6 +21,6 @@ regress.fit(X,Y)
 y_pred = regress.predict(X)
 
 plt.scatter(X,Y,color='red')
-plt.plot(X,y_pred,color='red')
+plt.plot(X,y_pred,color='yellow')
 plt.show()
 

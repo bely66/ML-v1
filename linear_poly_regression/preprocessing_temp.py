@@ -43,3 +43,11 @@ from sklearn.preprocessing import StandardScaler
 sc_x = StandardScaler()
 X_train = sc_x.fit_transform(X_train)
 X_test = sc_x.transform(X_test)
+
+from sklearn.metrics import accuracy_score , fbeta_score
+
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression 
+
+
